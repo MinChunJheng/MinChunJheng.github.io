@@ -6,11 +6,19 @@
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
-			{% include navigation.html %}
+			<h1><a href="/"><img src="img/smile.png" alt="logo"></a></h1>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/about">About</a></li>
+	        		<li><a href="/cv">CV</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+	    		</ul>
+			</nav>
 			<div class="container">
-			
+
 			{{ content }}
-			
+
 			</div><!-- /.container -->
 			<footer>
 	    		<ul>
