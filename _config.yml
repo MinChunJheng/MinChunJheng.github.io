@@ -1,2 +1,3 @@
 name: MinChunJheng
 markdown: kramdown    #用kramdown作markdown解析
+permalink: /blog/:year/:month/:day/:title
