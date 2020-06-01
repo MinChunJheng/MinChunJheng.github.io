@@ -15,7 +15,6 @@
 │   └── post.html
 ├── _posts
 │   ├── 2007-10-29-why-every-programmer-should-play-nethack.md
-│   └── 2009-04-26-barcamp-boston-4-roundup.md
 ├── _sass
 │   ├── _base.scss
 │   └── _layout.scss
