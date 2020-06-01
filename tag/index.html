@@ -1,0 +1,14 @@
+---
+layout: default
+title: tag
+---
+
+<div class="tag">
+  <ul>
+    {% for label in site.tags %}
+    <li>
+    <a href="{{ label.url }}">{{ label.title }}</a><br>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
