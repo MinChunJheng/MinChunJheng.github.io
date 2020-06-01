@@ -8,7 +8,7 @@ tags: jekyll blog github-page
 Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
 
 marldown語法
-===
+---
 行內HTML
 ---
 Markdown的語法有個主要的目的：用來作為一種網路內容的寫作用語言。
@@ -46,7 +46,8 @@ atx
 *   Red
 *   Green
 *   Blue
-***
+
+
 區段元素
 ---
 連結
