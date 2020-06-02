@@ -1,0 +1,16 @@
+---
+layout: default
+title: tag
+---
+<h2>All Tags</h2>
+<p>
+    {% for tag in site.tags %}
+    <!-- Here's a hack to generate a "tag cloud" where the size of
+    the word is directly proportional to the number of posts with
+    that tag. -->
+    <a href="/tag/{{ tag[0] }}/"
+    style="font-size: 20px">
+        {{ tag[0] }} |
+    </a>
+    {% endfor %}
+</p>
