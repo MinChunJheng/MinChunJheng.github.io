@@ -81,5 +81,5 @@ Use the `printf()` function.
 圖片
 
 ![Alt text](/img/smile.png)
-
-![Alt text](/path/to/img.jpg "Optional title")
+有名稱的
+![Alt text](/img/smile.png "Optional title")
