@@ -190,7 +190,7 @@ Jekyll結構:
 
 {% endhighlight %}
 
-11. 主目錄下建立`blog`資料夾，並在底下建立`index.html`:
+11.主目錄下建立`blog`資料夾，並在底下建立`index.html`:
 
 {% highlight liquid %}
 
